@@ -105,6 +105,8 @@ function App() {
       })
       .catch((err) => {
         console.log(err);
+        setIsRegistred(false)
+        setIsInfoTooltip(true)
       });
   }
 
